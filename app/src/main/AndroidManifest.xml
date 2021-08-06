@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jpr.multimedia">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/connect"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/connect"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MultiMedia">
+        <activity android:name=".NotificationActivity"></activity>
+        <activity android:name=".ShowLikedUser" />
+        <activity android:name=".UpdatePhoto" />
+        <activity android:name=".ShowStory" />
+        <activity android:name=".CommentsActivity" />
+        <activity android:name=".SendImage" />
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".FollowerActivity" />
+        <activity android:name=".MessageActivity" />
+        <activity android:name=".ShowUser" />
+        <activity
+            android:name=".IndividualPost"
+            android:label="@string/title_activity_individual_post"
+            android:theme="@style/Theme.MultiMedia.NoActionBar" />
+        <activity android:name=".StoryActivity" />
+        <activity android:name=".PostActivity" />
+        <activity android:name=".AnswerActivity" />
+        <activity android:name=".ReplyActivity" />
+        <activity android:name=".YourQuestions" />
+        <activity android:name=".Related" />
+        <activity android:name=".AskActivity" />
+        <activity
+            android:name=".ImageActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".PrivacyActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".UpdateProfile"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".CreateProfile"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".Splashscreen"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
